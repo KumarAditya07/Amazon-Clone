@@ -26,6 +26,7 @@
 }
 .border:hover{
     border:1.5px solid white;
+    padding :0px 4px 0px 4px
 }
 /* Box2 */
 
@@ -93,8 +94,32 @@ span{
 font-size:33px;
 }
 .nav-cart{
+    height: 50px;
     font-size:0.85rem;
     font-weight:700;
     display:flex;
     align-items:center;
+
+}
+
+/* Panel */
+.panel{
+    height:40px;
+    background-color:#0f1111;
+    display:flex;
+    color:white;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.panel-opt p{
+    display:inline;
+    margin-left:1rem;
+}
+.panel-opt{
+    width:70%;
+    font-size:1rem;
+}
+.panel-deals{
+    font-size:1rem;
+    font-weight:700;
 }
