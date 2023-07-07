@@ -123,3 +123,27 @@ font-size:33px;
     font-size:1rem;
     font-weight:700;
 }
+/* Hero-Section */
+.hero-section{
+    background-image: url("hero_image.jpg");
+    background-size:cover;
+    height:350px;
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+
+}
+.hero-msg{
+    color:black;
+    background-color:white;
+    height:40px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:1rem;
+    width:90%;
+    margin-bottom:1em;
+}
+.hero-msg a{
+    color:#007185;
+}
